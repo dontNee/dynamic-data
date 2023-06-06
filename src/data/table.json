@@ -16,8 +16,28 @@
     ],
     "blogTable": [
         {
-            "prop": "id",
-            "label": "博客id"
+            "prop": "S_ID",
+            "label": "博客主键"
+        },
+        {
+            "prop": "BLOG_TITLE",
+            "label": "博客标题"
+        },
+        {
+            "prop": "BLOG_CONTENT",
+            "label": "博客内容"
+        },
+        {
+            "prop": "AUTHOR_NAME",
+            "label": "博客作者"
+        },
+        {
+            "prop": "CREATE_TIME",
+            "label": "创建时间"
+        },
+        {
+            "prop": "UPDATE_TIME",
+            "label": "更新时间"
         }
     ],
     "otherTable": []

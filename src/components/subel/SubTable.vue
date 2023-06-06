@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 import SubRender from './SubRender.vue';
 
 interface Column {
@@ -46,14 +46,16 @@ function initData() {
         // 获取组件内部的列
         columns.value = props.columns.slice();
     }
+}
+// 初始化表格数据
+function initTableData() {
     // 获取父组件传入的数据
     const tableDataLength = props.tableData == null ? 0 : props.tableData.length;
     // 判断是否为空
-    if (tableDataLength) {
-        // 创建组件内部数据
-        dataSource.value = props.tableData.slice();
-    }
+    dataSource.value = tableDataLength ? props.tableData.slice() : [];
 }
+
+watch(() => props.tableData, initTableData, { immediate: true })
 </script>
 
 <template>

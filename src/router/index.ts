@@ -9,6 +9,7 @@ import BarEcharts from '../components/home/charts/BarEcharts.vue'
 import LineEcharts from '../components/home/charts/LineEcharts.vue'
 import PieEcharts from '../components/home/charts/PieEcharts.vue'
 import MapEcharts from '../components/home/charts/MapEcharts.vue'
+import BlogData from '../components/home/data/BlogData.vue'
 
 const router = createRouter({
   // hash路由
@@ -56,6 +57,10 @@ const router = createRouter({
         {
           path: 'map',
           component: MapEcharts
+        },
+        {
+          path: 'blog',
+          component: BlogData
         }
       ]
     }
