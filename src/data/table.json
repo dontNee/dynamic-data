@@ -1,0 +1,24 @@
+{
+    "menuSetting": [
+        {
+            "prop": "id",
+            "label": "主键",
+            "align": "center"
+        },
+        {
+            "prop": "menuName",
+            "label": "菜单名称"
+        },
+        {
+            "prop": "route",
+            "label": "路由"
+        }
+    ],
+    "blogTable": [
+        {
+            "prop": "id",
+            "label": "博客id"
+        }
+    ],
+    "otherTable": []
+}

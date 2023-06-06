@@ -1,0 +1,42 @@
+{
+    "bar": {
+        "xAxis": {
+            "type": "category"
+        },
+        "yAxis": {
+            "type": "value"
+        },
+        "legend": {},
+        "tooltip": {},
+        "series": [
+            {
+                "type": "bar"
+            }
+        ]
+    },
+    "line": {
+        "xAxis": {
+            "type": "category"
+        },
+        "yAxis": {
+            "type": "value"
+        },
+        "legend": {},
+        "tooltip": {},
+        "series": [
+            {
+                "type": "line"
+            }
+        ]
+    },
+    "pie": {
+        "series": [
+            {
+                "type": "pie"
+            }
+        ]
+    },
+    "map": {
+
+    }
+}

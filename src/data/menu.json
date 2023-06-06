@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1e0a056e-8386-eadc-aecd-a01d3c9c4c70",
+        "menuName": "首页",
+        "route": "/",
+        "pMenuId": "",
+        "enable": true
+    },
+    {
+        "id": "aebb4a0d-bc4c-db45-e98c-5cc84a580573",
+        "menuName": "图表",
+        "route": "/charts",
+        "pMenuId": "1e0a056e-8386-eadc-aecd-a01d3c9c4c70",
+        "enable": true
+    },
+    {
+        "id": "6b825fba-741e-00a8-b3fe-ba57a0abde29",
+        "menuName": "数据",
+        "route": "/data",
+        "pMenuId": "1e0a056e-8386-eadc-aecd-a01d3c9c4c70",
+        "enable": true
+    },
+    {
+        "id": "8d1027fe-cc7b-048d-f352-ce1a3e23a030",
+        "menuName": "基础柱状图",
+        "route": "/bar",
+        "pMenuId": "aebb4a0d-bc4c-db45-e98c-5cc84a580573",
+        "enable": true
+    },
+    {
+        "id": "98563615-2e60-03be-b2b2-7dce154a3c13",
+        "menuName": "基础饼图",
+        "route": "/pie",
+        "pMenuId": "aebb4a0d-bc4c-db45-e98c-5cc84a580573",
+        "enable": true
+    },
+    {
+        "id": "5be3cd2a-8c0f-ec23-e272-a68c4ec8d8d1",
+        "menuName": "基础折线图",
+        "route": "/line",
+        "pMenuId": "aebb4a0d-bc4c-db45-e98c-5cc84a580573",
+        "enable": true
+    },
+    {
+        "id": "859f64be-8052-e0ad-60c6-acaff656da9b",
+        "menuName": "基础地图",
+        "route": "/map",
+        "pMenuId": "aebb4a0d-bc4c-db45-e98c-5cc84a580573",
+        "enable": true
+    },
+    {
+        "id": "8d10c83f-ea51-4f23-44c0-41900be0355c",
+        "menuName": "博客数据",
+        "route": "/blog",
+        "pMenuId": "6b825fba-741e-00a8-b3fe-ba57a0abde29",
+        "enable": true
+    },
+    {
+        "id": "4bf8720e-1b46-dc26-1b26-fed5d1830eca",
+        "menuName": "系统设置",
+        "route": "/setting",
+        "pMenuId": "setting",
+        "enable": true
+    },
+    {
+        "id": "3b68321e-2f64-c0b3-3d47-2c8f6d7f47a9",
+        "menuName": "菜单配置",
+        "route": "/setting/menu_setting",
+        "pMenuId": "4bf8720e-1b46-dc26-1b26-fed5d1830eca",
+        "enable": true
+    }
+]

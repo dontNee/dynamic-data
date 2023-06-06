@@ -1,4 +1,6 @@
 {
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": ["node_modules"],
   "files": [],
   "references": [
     {
@@ -7,5 +9,9 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "strict": false,
+    "moduleResolution": "node"
+  }
 }
